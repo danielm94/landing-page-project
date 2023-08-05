@@ -34,8 +34,8 @@ The Dogs R Nice landing page includes:
 To run the site locally, clone the repository and open the `index.html` file in your preferred web browser.
 
 ```
-git clone https://github.com/username/dogs-r-nice.git
-cd dogs-r-nice
+git clone https://github.com/danielm94/landing-page-project.git
+cd landing-page-project
 open index.html
 ```
 
