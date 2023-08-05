@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;800&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -8,6 +8,12 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    padding: 100px 200px;
 }
 
 header {
@@ -16,6 +22,7 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0px 200px;
 }
 
 .company-logo {
@@ -43,14 +50,7 @@ header a {
 .awesome-content {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     gap: 100px;
-}
-
-
-.content-section {
-    padding: 0 200px;
-    padding-bottom: 100px;
 }
 
 .awesome-content h1 {
@@ -68,13 +68,12 @@ header a {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
-.awesome-content img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-
+.awesome-image-content img {
+    width: auto;
+    height: 304px;
 }
 
 .sign-up-button {
@@ -92,9 +91,9 @@ header a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
     gap: 50px;
-    color: #1F2937
+    color: #1F2937;
 }
 
 .random-information h1 {
@@ -105,6 +104,7 @@ header a {
 .dog-cards {
     display: flex;
     gap: 30px;
+    align-items: flex-start;
 }
 
 .dog-card {
@@ -113,7 +113,12 @@ header a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
 
+.dog-card p {
+    max-width: 250px;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .dog-card img {
@@ -121,4 +126,77 @@ header a {
     height: auto;
     border: 4px solid #3882F6;
     border-radius: 20px;
+}
+
+.quote-content {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 400;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.quote-content .quotation {
+    margin: 10px 100px;
+    font-weight:lighter;
+}
+
+.quotation-source {
+    margin-top: 0px;
+    align-self: flex-end;
+    font-weight: 900;
+    margin: 0px 100px;
+}
+
+.signup-content {
+    background-color: #F9FAF8;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signup-text-title {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+
+.signup-content-message {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+    margin: 0px 20px;
+}
+
+.signup-content-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-size: 26px;
+    font-weight: 800;
+    padding: 6px 30px;
+    margin: 0px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color:#F9FAF8;
+    padding: 25px 0px;
 }
